@@ -1,4 +1,33 @@
 h1 {
-    color: red;
+    color: rgb(44, 41, 94);
     font-size: 40px;
+    padding: 15px;
+    text-align: center;
+    background-color: blue;
 }
+.p1 {
+    text-align: center;
+    padding: 2px;
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 3px solid blue;
+    background-color: grey;
+    font-weight: bold;
+}
+
+ul {
+    color: black;
+    font-style: normal;
+}
+
+li {
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
