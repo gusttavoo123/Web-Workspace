@@ -1,33 +1,86 @@
-h1 {
-    color: rgb(44, 41, 94);
-    font-size: 40px;
-    padding: 15px;
-    text-align: center;
-    background-color: blue;
-}
-.p1 {
-    text-align: center;
-    padding: 2px;
+body {
+    background-color: rgb(203, 207, 207);
+    margin: 0;
 }
 
-h2 {
-    color: blue;
-    font-size: 20px;
-    padding: 10px;
-    text-align: left;
-    border-bottom: 3px solid blue;
-    background-color: grey;
-    font-weight: bold;
+header {
+    background-image: url(../images/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
 }
 
 ul {
-    color: black;
-    font-style: normal;
+    text-align: right;
+    margin-bottom: 100px;
 }
 
 li {
-    color: blue;
-    font-style: italic;
-    font-weight: bold;
+    border: 2px solid rgb(253, 253, 253);
+    background-color: rgba(63, 60, 60, 0.5);
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    list-style-type: none;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.p1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid white;
+    display: block;
+}
+
+article {
+    padding: 0.5px 10px 0.5px 10px;
+    background-color: white;
+    margin: 10px 150px 10px 150px;
+    display: block;
+}
+
+h2 {
+    display: block;
+    padding: 0 0 0 10px;
+    background-color: rgb(211, 208, 208);
+    border-bottom: 1px solid grey;
+    margin-top: 10;
+}
+
+h3 {
+    display: inline-block;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(199, 198, 198);;
+    text-align: left;
+    margin-right: 1460px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 20px 0 20px 0;
+}
